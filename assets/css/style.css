@@ -5,28 +5,28 @@
     margin: 0;
 }
 
-/*All user-visable content*/
+/*Sets the background color*/
 body {
     background-color: #d9dcd6;
 }
 
-/*Header*/
+/*Sets the font, background color, and text color of the header*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-/*Header: heading*/
+/*Sets the size of the font of the heading in the header*/
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
-/*Header: heading: stylized portion*/
+/*Sets the color of the "seo" in the heading in the header*/
 header h1 .seo {
     color: #d9dcd6;
 }
-/*Header: navigation bar*/
+/*Sets the position, font, and font size of the nav bar in the header*/
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -34,22 +34,22 @@ nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-/*Header: navigation bar: unordered list*/
+/*Removes the list styling of the unordered list in the nav bar in the header*/
 nav ul {
     list-style-type: none;
 }
-/*Header: navigation bar: unordered list: list items*/
+/*Positions the list items of the unordered list in the nav bar in the header*/
 nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-/*Header: navigation bar: unordered list: list items: links*/
+/*Sets the color and style of the links that are the list items of the unordered list in the nav bar in the header*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/*The large picture section*/
+/*Provides and positions the large image of the figure*/
 .hero {
     height: 800px;
     width: 100%;
@@ -57,15 +57,21 @@ a {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+
+}
+/*Positions the caption of the figure behind the image in order to function similarly to an alt attribute*/
+figcaption {
+    position: relative;
+    z-index: -1;
 }
 
-/*Main content*/
+/*Positions the main content*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-/*Main content: sections*/
+/*Positions and sets the size, font, background color, and text color of the sections in the main content*/
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
@@ -76,36 +82,36 @@ a {
     background-color: #0072bb;
     color: #ffffff;
 }
-/*Main content: sections: headings*/
+/*Sets the position and size of the text of the headings of the sections in the main content*/
 .search-engine-optimization h2,
 .online-reputation-management h2,
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/*Main content: sections: images*/
+/*Sets the size of the images of the sections in the main content*/
 .search-engine-optimization img,
 .online-reputation-management img,
 .social-media-marketing img {
     max-height: 200px;
 }
-/*Main content: sections: images: placement*/
+/*Positions the images of the sections in the main content*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-/*Main content: sections: images: placement*/
+/*Positions the images of the sections in the main content*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-/*Paragraphs: Main content: sections, Aside: sections, and Footer*/
+/*Sets the size of the font of the paragraphs*/
 p {
     font-size: 16px;
 }
 
-/*Aside*/
+/*Sets the position, size, font, and background color of the aside*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -116,21 +122,21 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/*Aside: sections*/
+/*Sets the position and text color of the sections in the aside*/
 .benefit-lead,
 .benefit-brand,
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/*Aside: sections: headings*/
+/*Sets the position of the headings of the sections in the aside*/
 .benefit-lead h3,
 .benefit-brand h3,
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-/*Aside: sections: images*/
+/*Sets the position and size of the images of the sections in the aside*/
 .benefit-lead img,
 .benefit-brand img,
 .benefit-cost img {
@@ -139,14 +145,14 @@ p {
     max-width: 150px;
 }
 
-/*Footer*/
+/*Sets the position and font of the footer*/
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-/*Footer: heading*/
+/*Sets the size of the font of the heading of the footer*/
 footer h4 {
     font-size: 20px;
 }
