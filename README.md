@@ -10,13 +10,12 @@ N/A
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+All of the smaller images have an alt attribute. The largest image has a figcaption behind the image itself due to the image being a background image. The links in the navigation bar all lead to to their respective sections on the page when clicked.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+The app appears as follows:
+![alt text](assets/images/annhixson.github.io_module-1-challenge_.png)
+and can be found at the following link:
+[https://annhixson.github.io/module-1-challenge/](https://annhixson.github.io/module-1-challenge/)
 
 ## Credits
 
